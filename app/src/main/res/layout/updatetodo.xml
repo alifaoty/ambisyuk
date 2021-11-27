@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateTodo"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingTop="30dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/Desc"
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="top"
+            android:text="Update"
+            android:textAppearance="Description"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Update"
+                android:layout_width="288dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:hint="Update todo from. . ."
+                android:textAppearance="Create"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Desc2"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="top"
+        android:text="Into what todo?"
+        android:textAppearance="Description"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Update2"
+                android:layout_width="288dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:hint="to todo. . ."
+                android:textAppearance="Create"/>
+
+            <Button
+                android:id="@+id/update_button"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:elevation="3dp"
+                android:gravity="center"
+                android:text="Update Button"
+                android:textAppearance="Update Button"
+                app:backgroundTint="#7C7C7C" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
